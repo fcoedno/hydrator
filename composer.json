@@ -1,0 +1,26 @@
+{
+    "name": "fcoedno/hydrator",
+    "description": "A simple PHP Hydrator",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Francisco Edno",
+            "email": "ednofco@gmail.com"
+        }
+    ],
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "6.5.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Edno\\Hydrator\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Edno\\Hydrator\\Tests\\": "tests/"
+        }
+    }
+}
